@@ -19,6 +19,8 @@ mob=int(input("enter the mobile number="))
 item={"idly":5,"dosa":5,"vada":5,"chapathi":10,"parotta":15,"veg briyani":50,"chicken briyani":100,"coffee":15,"Tea":10}
 cal( )
 print("====bill====")
+print(name)
+print(mob)
 dtime=datetime.datetime.now( )
 print(dtime.strftime("%y-%m-%d/%H:%M:%S"))
 print("s.no itemname cost quantity total")
